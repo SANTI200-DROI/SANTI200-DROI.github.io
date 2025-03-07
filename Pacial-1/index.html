@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi logo</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px;
+        }
+
+        a {
+            color: #008CBA;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Santiago Palacios Becoche</h1>
+    <p>Hola, soy santiago palacios tengo 24 años y esta es mi primera página web creada con HTML, CSS y JavaScript.</p>
+    <a href="https://github.com/usuario" target="_blank">https://github.com/openai</a>
+    <br>
+    <img src="img.jpg" alt="Foto de perfil">
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+    <script>
+        function mostrarMensaje() {
+            console.log("Hola Mundo desde JavaScript");
+            alert("¡Hola Mundo desde JavaScript!");
+        }
+    </script>
+</body>
+</html>
+<table border="1" height="100%" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>Total</th>
+    </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>John</td>
+    <td>Jane</td>
+    <td>total</td>
+    <td colspan="3" rowspan="2"></td>
+</tr>
+
+
+<section>
+
+    <h2>Formulario contacto</h2>
+
+    <form method="post" action="/">
+      <fieldset>
+        <legend>Informacion personal</legend>
+        <label>Nombre:
+          <input type="text" size="50" id="name" placeholder="Digita tu nombre" required />
+        </label>
+        
+        <div>
+          <label
+            >Email:
+
+            <input type="email" placeholder="email@gmail.com" required />
+          </label>
+        </div>
+
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Informacion adicional</legend>
+        <label>Telefono:
+          <input type="tel" id="name" placeholder="+57 312+12230+0021" pattern="[0-9]{9}" required />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Otros</legend>
+        <div>
+    </select>      
+  </div>
